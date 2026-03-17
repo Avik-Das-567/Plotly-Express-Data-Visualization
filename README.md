@@ -38,7 +38,7 @@ The project walks through progressively advanced visualizations, from simple bar
   - Custom labels
 
 ### Task 3: Life Expectancy vs GDP per Capita
-- Built scatter plots to explore relationship between GDP and life expectancy
+- Built scatter plots to explore the relationship between GDP and life expectancy
 - Added:
   - Color grouping by continent
   - Automatic legend handling
@@ -52,7 +52,7 @@ The project walks through progressively advanced visualizations, from simple bar
 
 ### Task 5: Animations & Facet Plots
 - Created **facet plots** by continent
-- Applied logarithmic scaling (`log_x=True`)
+- Applied logarithmic scaling on the x-axis (`log_x=True`)
 - Built animated scatter plots:
   - `animation_frame="year"`
   - `animation_group="country"`
@@ -76,6 +76,19 @@ The project walks through progressively advanced visualizations, from simple bar
 - Used:
   - `line_group` for country-level tracking
   - Smooth curves (`line_shape="spline"`)
+
+## Key Insights
+- Higher GDP per capita correlates with higher life expectancy, with diminishing returns at higher income levels.
+- Clear global inequalities exist, with developing regions showing lower life expectancy and income compared to developed regions.
+- Population growth trends vary significantly across countries, highlighting differences in economic development and demographic transitions.
+
+## Tech Stack
+- Python
+- Pandas
+- NumPy
+- Plotly
+  - Plotly Express
+  - Plotly Graph Objects
 
 ## Key Features
 - Interactive plots (zoom, hover, select)
